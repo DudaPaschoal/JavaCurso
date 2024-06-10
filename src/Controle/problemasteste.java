@@ -12,6 +12,11 @@ public class problemasteste {
         System.out.println(" X = " + X);
 
         entrada.close();
+        String nome = "Duda";
+        System.out.println("Olá, " + nome);
 
+        for (int i = 0; i <= 10; i+=2)  {
+            System.out.println(i);
+        }
     }
 }
