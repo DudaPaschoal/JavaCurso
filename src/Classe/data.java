@@ -17,5 +17,8 @@ public class data {
         d2.ano = 2020;
         System.out.printf(d2.obterDataFormatada());
 
+        datateste d3 = new datateste(12, 10, 1998);
+        System.out.println(d3.obterDataFormatada());
+
     }
 }
