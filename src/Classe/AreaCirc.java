@@ -13,4 +13,8 @@ public class AreaCirc {
     double area(){
         return pi * Math.pow(raio, 2);
     }
+
+    static double area(double raio){
+        return pi * Math.pow(raio, 2);
+    }
 }
